@@ -1,0 +1,18 @@
+.clearfix::after,
+.clearfix::before{
+    content: '';
+    display: table;
+    clear: both;
+}
+body{  
+    font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.w{
+    width: 1170px;
+    margin: 0 auto;
+}
